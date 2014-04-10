@@ -1,0 +1,317 @@
+html, body {
+    -webkit-font-smoothing: antialiased;
+    font: 500 15px/20px "museo-3",sans-serif !important;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.top-nav-collapse  a, .navbar-custom .nav li a {
+    color: white !important;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+#download {
+    background: #e9e9e9;
+}
+@media(min-width:767px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
+a {
+    color: #28c3ab;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #176e61;
+}
+
+.light {
+    font-weight: 400;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: rgb(21, 125, 238);
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #000;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+    outline: 0;
+    background-color: rgba(255,255,255,.2);
+}
+
+.navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-toggle:focus,
+.navbar-toggle:active {
+    outline: 0;
+}
+
+
+#download .item img { 
+    text-align: left; 
+    border-radius: 50%; 
+    padding-right: 25px;
+    max-height: 30%;
+}
+#download .item h4 {
+    margin: 2% 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+#download .item ul > li {
+    display: inline-block;
+    background: rgb(129, 136, 177);
+    border-radius: 5px;
+}
+#download .item ul > li > a {
+    padding: 7px 20px;
+    display: block;
+    color: white;
+}
+.flip-clock-wrapper {
+    position: absolute;
+    width: 100%;
+    top: 32em;
+    left: 30%;
+}
+#page-top > section.intro > ul {
+    margin: 0 auto;
+    text-align: center;
+    top: 32em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+.facebook-icon, .google-plus-icon, .twitter-icon {
+    color: white !important;border: none;
+}
+.facebook-icon {
+    background-color: #2275d1 !important;
+}
+.google-plus-icon {
+    background-color: #d83732 !important;
+}
+.twitter-icon {
+    background-color: #1caff6 !important;
+}
+
+.flip-clock-label {
+    display: none;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.28);
+    z-index: 2;
+    height: 100%;
+}
+#about > div > div > center {
+    margin-bottom: 4em;
+}
+#about > div > div > center > embed {
+    border: 15px solid rgb(21, 125, 238); 
+    
+}
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: rgb(21, 125, 238);
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba(0,0,0,.3);
+    }
+}
+
+#carousel-example-generic {
+    height: 600px;
+}
+#carousel-example-generic > div {
+    height: 100%;
+}
+#download .item {
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+}
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    min-height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.brand-heading {
+    font-size: 40px;
+}
+
+.intro-text {
+    font-size: 18px;
+}
+
+@media(min-width:767px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .brand-heading {
+        font-size: 100px;
+    }
+
+    .intro-text {
+        font-size: 25px;
+    }
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 35px;
+    font-size: 40px;
+    color: black;
+    background: 0 1;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+
+.page-scroll .btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.page-scroll .btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes pulse {    
+    0 {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes pulse {    
+    0 {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.content-section {
+    /******************************************************************************************/
+    padding-top: 100px;
+}
+

@@ -1,0 +1,74 @@
+[
+    {
+        "speakers" : [{
+            "name" : "Francisco Morosini Eguren",
+            "gplusid" : "100213285493687097043",
+            "image" : "https://lh5.googleusercontent.com/-4007Z1IWCjk/UIyyGLGnPiI/AAAAAAAAAEc/huhMklnf8bQ/s577-no/P1030949.JPG",
+            "company" : "Xendra",
+            "title" : ""
+        }],
+        "title" : "Xendra ERP",
+        "desc" : "It can handle multiple speaker objects",
+        "id" : 0
+    },
+    {
+        "speakers" : [{
+            "name" : "Armando Picón",
+            "gplusid" : "+ArmandoPicon",
+            "image" : "https://lh6.googleusercontent.com/-mNRDuVdZx7I/UvFWsL_Sz-I/AAAAAAAAcN8/5IeT92xkpkQ/w480-h482-no/20140131_075642.jpg",
+            "company" : "GDG Open Lima",
+            "title" : ""
+        }],
+        "title" : "Android",
+        "desc" : "It can handle multiple speaker objects",
+        "id" : 1
+    },
+    {
+        "speakers" : [{
+            "name" : "Sandra Renteria Castillo",
+            "gplusid" : "109944133565050605161",
+            "image" : "https://lh4.googleusercontent.com/-z0IWCEchsd0/Um1rMTjYKUI/AAAAAAAAASM/OrsFreppImo/s577-no/2013+14%253A36%253A04.jpg",
+            "company" : "G.me",
+            "title" : ""
+        }],
+        "title" : "Software Blender 3D",
+        "desc" : "It can handle multiple speaker objects",
+        "id" : 0
+    },    
+    {
+        "speakers" : [{
+            "name" : "John Machahuay Giraldo",
+            "gplusid" : "+JohnPauljohnp_js",
+            "image" : "https://lh3.googleusercontent.com/-G_xmhZgINxg/AAAAAAAAAAI/AAAAAAAAAAA/DbSPp1SSti4/s50-c/photo.jpg",
+            "company" : "GDG Open",
+            "title" : ""
+        }],
+        "title" : "Nodejs y desarrollo de juegos ",
+        "desc" : "It can handle multiple speaker objects",
+        "id" : 0
+    },    
+    {
+        "speakers" : [{
+            "name" : "Christian Ramón Rodriguez",
+            "gplusid" : "105395214612249824689",
+            "image" : "https://lh4.googleusercontent.com/-RmApx0Nw1H4/Up6C8jpS-wI/AAAAAAAAAIY/0SluBkrZ3bg/s577-no/chris+and+aaron_patterson.JPG",
+            "company" : "GDG Open",
+            "title" : "Software Engineer"
+        }],
+        "title" : "AngularJS",
+        "desc" : "It can handle multiple speaker objects",
+        "id" : 0
+    },    
+    {
+        "speakers" : [{
+            "name" : "Brayan Jhom Acuña Ventosilla",
+            "gplusid" : "109285068860545602866",
+            "image" : "https://lh4.googleusercontent.com/-yj5Td7URJYE/Uv0sTfHOlWI/AAAAAAAAAO0/9gCp5dguoe0/s577-no/20100205-The+Unix+Hacker+Wallpaper+Funny+Cat+Photos.jpg",
+            "company" : "G.me",
+            "title" : "Software Engineer"
+        }],
+        "title" : "HTML5",
+        "desc" : "It can handle multiple speaker objects",
+        "id" : 0
+    }
+]
