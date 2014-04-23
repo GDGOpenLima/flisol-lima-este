@@ -30,8 +30,25 @@ p {
     font-size: 17px;
 }
 
-#download {
+#download, #map {
     background: #e9e9e9;
+}
+#download > div {
+    padding-bottom: 4em;
+}
+#download > div {
+    padding-bottom: 4em;
+}
+#download .item img:hover {
+    -webkit-transform: rotateZ(-10deg) rotateY(10deg) scale(.9);
+    -webkit-transition: all .2s ease-in-out;
+}
+.flip-clock-wrapper .flip, .flip-clock-divider {
+    float: none !important;
+    display: inline-block;
+}
+.flip-clock-divider {
+    float: none !important;
 }
 @media(min-width:767px) {
     p {
@@ -130,7 +147,7 @@ ul {
     position: absolute;
     width: 100%;
     top: 32em;
-    left: 30%;
+    margin: 0;
 }
 #page-top > section.intro > ul {
     margin: 0 auto;
@@ -172,6 +189,11 @@ ul {
     border: 15px solid rgb(21, 125, 238); 
     
 }
+#gmaps-canvas {
+    height: 30em;
+    margin-bottom: 5em;
+    border: 15px solid rgb(21, 125, 238);
+}
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
@@ -191,6 +213,7 @@ ul {
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(0,0,0,.3);
     }
+
 }
 
 #carousel-example-generic {
@@ -221,7 +244,16 @@ ul {
     font-size: 18px;
 }
 
+@media(max-width:767px) {
+    #download .item {
+        width: 100% !important;
+    }
+    .flip-clock-wrapper {
+        top: 24em;
+    }
+}
 @media(min-width:767px) {
+
     .intro {
         height: 100%;
         padding: 0;
@@ -315,3 +347,22 @@ ul {
     padding-top: 100px;
 }
 
+.yellow-class {
+    background: yellow;
+}
+
+footer {
+    background: #2f4154;
+    color: #1abc9c;
+    padding: 2em 0 5px 0;
+    text-align: left;
+}
+footer h4 {
+    margin: 0;
+}
+footer h5 {
+    margin: 0;
+}
+footer li {
+    padding-left: 5em;
+}

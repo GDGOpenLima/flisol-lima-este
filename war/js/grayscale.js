@@ -17,3 +17,18 @@ $(function() {
         event.preventDefault();
     });
 });
+
+
+        //Google maps
+                var mapOptions = {
+                    zoom: 15,
+                    center: new google.maps.LatLng(-11.956354, -76.986088)
+                };
+                var map = new google.maps.Map(document.getElementById('gmaps-canvas'),
+                    mapOptions);
+
+                var marker;                    
+                marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(-11.956354, -76.986088),
+                    map: map
+                });
