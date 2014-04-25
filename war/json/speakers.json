@@ -17,7 +17,11 @@
             "gplusid" : "+ArmandoPicon",
             "image" : "https://lh6.googleusercontent.com/-mNRDuVdZx7I/UvFWsL_Sz-I/AAAAAAAAcN8/5IeT92xkpkQ/w480-h482-no/20140131_075642.jpg",
             "company" : "GDG Open Lima",
-            "title" : ""
+            "title" : "",
+            "facebook": "https://www.facebook.com/gdgopenlima",
+            "twitter": "https://twitter.com/apiconz",
+            "youtube": "https://www.youtube.com/user/apiconz"
+     
         }],
         "title" : "Android",
         "desc" : "It can handle multiple speaker objects",
@@ -112,6 +116,18 @@
             "title" : ""
         }],
         "title" : "Definición de frameworks para aplicaciones empresariales con Java EE",
+        "desc" : "It can handle multiple speaker objects",
+        "id" : 1
+
+    },{
+        "speakers" : [{
+            "name" : "Jonathan Campos",
+            "gplusid" : "#",
+            "image" : "https://scontent-b-mia.xx.fbcdn.net/hphotos-ash4/t1.0-9/q71/s720x720/1376634_10151712809113717_67935349_n.jpg",
+            "company" : "Fedora",
+            "title" : ""
+        }],
+        "title" : "Administración de servidores web",
         "desc" : "It can handle multiple speaker objects",
         "id" : 1
 
